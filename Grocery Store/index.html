@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="Author" content="">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script src="https://use.fontawesome.com/df0901d009.js"></script>
+	<title>Fruit n Veggies.com</title>
+	<script>
+	function stickyMenu() {
+			var sticky=document.getElementByID('sticky');
+			if (window.pageYofset > 220) {
+				sticky.classList.add('sticky');
+			}
+			else{
+				sticky.classList.remove('sticky');
+			}
+		}
+	window.onscroll = function(){
+		stickyMenu();
+	}
+	</script>
+</head>
+<body>
+<div class="parallax">
+	<div class="page-title">Eat Healthy </div>
+</div>
+<div class="menu" id="sticky">
+	<ul class="menu-ul">
+	<a href="#" class="a-menu"><li>Home</li></a>
+	<a href="deals" class="a-menu"><li>Deals</li></a>
+	<a href="vegetables" class="a-menu"><li>Vegetables</li></a>
+	<a href="fruits" class="a-menu"><li>Fruits</li></a>
+	<a href="juice" class="a-menu"><li>Juice</li></a>
+	<a href="#" class="a-menu"><li>Your Cart</li></a>	
+	</ul>
+	<div class="search-box">
+		<form>
+			<input type="text" placeholder="Search" name="search" class="search-input"/>
+			<button type="submit"><i class="fa fa-search"></i></button>
+		</form>
+	</div>
+</div>
+<!-- Home page-->
+<div class="container">
+<a href="#vegetables">
+<div class="categories">
+	<img src="https://images.all-free-download.com/images/graphicthumb/vegetable_still_life_03_hd_pictures_167406.jpg" class="item-image" />
+	<div class="image-title">Vegetables</div>
+</div>
+</a>
+<a href="#fruits">
+<div class="categories">
+	<img src="https://p4.wallpaperbetter.com/wallpaper/858/697/98/berries-fruit-fresh-fruits-wallpaper-preview.jpg" class="item-image"/>
+	<div class="image-title">Fruits</div>
+</div>
+</a>
+<a href="#juice">
+<div class="categories">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgurmA9K4Xhuw06UIqk8yLwUMw7ZNnnUSnhQ&usqp=CAU" class="item-image"/>
+	<div class="image-title">Juice</div>
+</div>
+</a>
+<a href="#deals">
+<div class="categories">
+	<img src="https://cdn.flipshope.com/blog/wp-content/uploads/2016/07/Best-Online-Deals-Today.jpg" class="item-image"/>
+	<div class="image-title">Deals</div>
+</div>
+</a>
+</div>
+<!--deal begins-->
+<div class="deals-container" id="deals">
+	<div class="parallax">
+		<div class="title">Deals</div>
+	</div>
+	<div class="deal">
+		Save 10%  on buying 300Rs vegetables<br>
+		<button class="coupon-btn">Add Coupon</button>
+	</div>
+	<div class="deal">
+		Save 10%  on buying 300Rs Fruits<br>
+		<button class="coupon-btn">Add Coupon</button>
+	</div>
+	<div class="deal">
+		Save 10%  on buying 300Rs Meat<br>
+		<button class="coupon-btn">Add Coupon</button>
+	</div>
+</div>
+<!--deal ends-->
+<!--veg begins-->
+<div class="deals-container" id="vegetables">
+	<div class="parallax">
+		<div class="title">Vegetables</div>
+	</div>
+	<div class="items">
+	<div class="images">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bright_red_tomato_and_cross_section02.jpg/800px-Bright_red_tomato_and_cross_section02.jpg" class="item-image-size" />
+	</div>
+	<div class="description">
+		<b>Tomatoes</b><br>
+		<div class="item-select">
+			Price: 40Rs/KG
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>250 gram</option>
+			<option>500 gram</option>
+			<option>750 gram</option>
+			<option>1KG</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="https://images.indianexpress.com/2019/12/Onion-alternative_759.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Onions</b><br>
+		<div class="item-select">
+			Price: 60Rs/KG
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>250 gram</option>
+			<option>500 gram</option>
+			<option>750 gram</option>
+			<option>1KG</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="https://cdn.britannica.com/s:800x450,c:crop/80/192580-138-BE5ADB2E/spinach-explosives-countries.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Spinach</b><br>
+		<div class="item-select">
+			Price: 50Rs/KG
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>250 gram</option>
+			<option>500 gram</option>
+			<option>750 gram</option>
+			<option>1KG</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="https://i.ndtvimg.com/mt/cooks/2014-11/carrots.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Carrots</b><br>
+		<div class="item-select">
+			Price: 50Rs/KG
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>250 gram</option>
+			<option>500 gram</option>
+			<option>750 gram</option>
+			<option>1KG</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="https://veggies.ind.in/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/5/_/5.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Eggplant</b><br>
+		<div class="item-select">
+			Price: 50Rs/KG
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>250 gram</option>
+			<option>500 gram</option>
+			<option>750 gram</option>
+			<option>1KG</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="https://3.imimg.com/data3/OE/IJ/MY-331481/potato-250x250.jpg" class="item-image-size" />
+	</div>
+	<div class="description">
+		<b>Potatoes</b><br>
+		<div class="item-select">
+			Price: 40Rs/KG
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>250 gram</option>
+			<option>500 gram</option>
+			<option>750 gram</option>
+			<option>1KG</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+	</div>
+	<div class="items">
+	<div class="images">
+		<img src="https://www.producemarketguide.com/sites/default/files/Commodities.tar/Commodities/garlic_commodity-page.png" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Garlic</b><br>
+		<div class="item-select">
+			Price: 50Rs/KG
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>250 gram</option>
+			<option>500 gram</option>
+			<option>750 gram</option>
+			<option>1KG</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="https://gardenguru.in/652-home_default/methi-kasturi-fenugreek.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Fenugreek</b><br>
+		<div class="item-select">
+			Price: 50Rs/KG
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>250 gram</option>
+			<option>500 gram</option>
+			<option>750 gram</option>
+			<option>1KG</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+	</div>
+	<div class="items">
+	<div class="images">
+		<img src="https://m.media-amazon.com/images/I/61M7ZbTTlVL._AC_SS350_.jpg" class="item-image-size"/>
+	</div>
+	<div class="description">
+		<b>Ladyfinger</b><br>
+		<div class="item-select">
+			Price: 40Rs/KG
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>250 gram</option>
+			<option>500 gram</option>
+			<option>750 gram</option>
+			<option>1KG</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+
+<!--veg ends-->
+<!--fruits begin-->
+<div class="deals-container" id="fruits">
+	<div class="parallax">
+		<div class="title">Fruits</div>
+	</div>
+	<div class="items">
+	<div class="images">
+		<img src="https://5.imimg.com/data5/LM/DU/MY-22954806/apple-fruit-500x500.jpg" class="item-image-size" />
+	</div>
+	<div class="description">
+		<b>Apple</b><br>
+		<div class="item-select">
+			Price: 160Rs/KG
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>250 gram</option>
+			<option>500 gram</option>
+			<option>750 gram</option>
+			<option>1KG</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="https://cdn.mos.cms.futurecdn.net/42E9as7NaTaAi4A6JcuFwG-1200-80.jpg" class="item-image-size" />
+	</div>
+	<div class="description">
+		<b>Banana</b><br>
+		<div class="item-select">
+			Price: 30Rs/dozen
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>Half dozen</option>
+			<option>1 dozen</option>
+			
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJe2eueMrEDfYFSvhNXwAfc6RO6GW8kLCR-A&usqp=CAU" class="item-image-size" />
+	</div>
+	<div class="description">
+		<b>Papaya</b><br>
+		<div class="item-select">
+			Price: 160Rs/KG
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>250 gram</option>
+			<option>500 gram</option>
+			<option>750 gram</option>
+			<option>1KG</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="https://www.westfaliafruit.com/wp-content/uploads/2019/01/Oranges-300x300.jpg" class="item-image-size" />
+	</div>
+	<div class="description">
+		<b>Oranges</b><br>
+		<div class="item-select">
+			Price: 250Rs/KG
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>250 gram</option>
+			<option>500 gram</option>
+			<option>750 gram</option>
+			<option>1KG</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="https://5.imimg.com/data5/WT/GN/ZH/SELLER-3722283/pineapple-500x500.jpg" class="item-image-size" />
+	</div>
+	<div class="description">
+		<b>Pineapple</b><br>
+		<div class="item-select">
+			Price: 160Rs/KG
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>250 gram</option>
+			<option>500 gram</option>
+			<option>750 gram</option>
+			<option>1KG</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="https://d2cbg94ubxgsnp.cloudfront.net/Pictures/2000x2000fit/7/5/6/108756_strawberry.jpg" class="item-image-size" />
+	</div>
+	<div class="description">
+		<b>Strawberry</b><br>
+		<div class="item-select">
+			Price: 160Rs/KG
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>250 gram</option>
+			<option>500 gram</option>
+			<option>750 gram</option>
+			<option>1KG</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<!--fruits end-->
+<!-- Meat starts-->
+<div class="deals-container" id="juice">
+	<div class="parallax">
+		<div class="title">Healthy Juices</div>
+	</div>
+	<div class="items">
+	<div class="images">
+		<img src="https://img1.mashed.com/img/gallery/heres-what-happens-when-you-drink-orange-juice-every-day/intro-1587655828.jpg" class="item-image-size" />
+	</div>
+	<div class="description">
+		<b>Orange Juice</b><br>
+		<div class="item-select">
+			Price: 50Rs/Glass
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>1 </option>
+			<option>2</option>
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<div class="items">
+	<div class="images">
+		<img src="https://media.istockphoto.com/photos/summer-mixed-fruit-juice-picture-id683395376" class="item-image-size" />
+	</div>
+	<div class="description">
+		<b>Mixed Fruit Organic Juice</b><br>
+		<div class="item-select">
+			Price: 100Rs/Glass
+		</div>
+		<label>Qty:</label>
+		<select class="item-select">
+			<option>1</option>
+			<option>2</option>
+			
+		</select><br>
+		<button class="buynow-btn">Buy Now</button>
+	</div>
+</div>
+<!-- Meat ends-->
+<!--home page ends-->
+
+<!--Footer starts-->
+
+<div class="copyrights">
+	<i class="fa fa-copyright"></i>Fruit n Veggies By Rishabh Gawai
+</div>
+<!--Footer ends-->
+</body>
+</html>
+
+
+
